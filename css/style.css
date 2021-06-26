@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+  }
+#accessibility{
+    margin-left: 95%;
+}
+
+li {
+    display: inline;
+    color: white;
+  }
+p {
+    color:white;
+  }
+ul > li img {
+    width: 35px;
+    height: 52.25px;
+    border: 2px white;
+}
+.container > img {
+    margin: 30px;
+}
+.container > div {
+    margin: 30px;
+}
+.imgtext {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+    align-items: baseline;
+    ;
+}
+.navigation > img {
+    position: absolute;
+    margin-left: 5%;
+}
+.container {
+    padding-top: 75px;
+    padding-bottom: 125px;
+}
+.footercontainer{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+hr {
+    width: 90%;
+}
+#letsconnect {
+    font-size: 24px;
+    margin: 1px;
+}
+.socialmedia {
+    margin: 6px;
+    text-align: end;
+}
+#copyright {
+    font-size: 7px;
+    margin: 1px;
+}
+#number{
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+}
+#location{
+    display: inline-block;
+    height: 5px;
+    margin-left: 10px;
+}
+.number > img{
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.location > img{
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.number, .location{
+    text-align: center;
+}
+.location, .number{
+    margin: 5px;
+}
+.sm {
+    display: inline-block;
+    padding-right: 30px;
+    margin-right: 20px;
+    text-align: end;
+}

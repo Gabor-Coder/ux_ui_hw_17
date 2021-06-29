@@ -64,15 +64,12 @@ hr {
     width: 90%;
 }
 #letsconnect {
+    
     font-size: 24px;
     margin: 1px;
 }
-.socialmedia {
-    margin: 6px;
-    text-align: end;
-}
 #copyright {
-    font-size: 7px;
+    font-size: 10px;
     margin: 1px;
 }
 #number{
@@ -95,13 +92,30 @@ hr {
 }
 .number, .location{
     text-align: center;
-}
-.location, .number{
     margin: 5px;
+}
+.socialmedia {
+    display: flex;
+    margin: 6px;
 }
 .sm {
     display: inline-block;
-    padding-right: 30px;
-    margin-right: 20px;
-    text-align: end;
+    padding: 15px;
+    margin: 10px;
+}
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+}
+.flexbox2 {
+    display: flex;
+    flex-direction: column;
+}
+li:hover{
+    color: #EB34EE;
+    cursor:pointer;
+} 
+#logo:hover{
+    transform: scale(1.2);
+    cursor:pointer;
 }
